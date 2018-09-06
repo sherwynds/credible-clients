@@ -1,5 +1,6 @@
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
+from sklearn.neighbors import RadiusNeighborsClassifier
 
 
 class CreditModel:
@@ -9,7 +10,7 @@ class CreditModel:
         """
 
         # TODO: Initialize your model object.
-        self.knn = KNeighborsClassifier(n_neighbors=n, weights='uniform')
+        self.knn = KNeighborsClassifier(n_neighbors=n, weights='uniform', algorithm='brute')
 
     def fit(self, X_train, y_train):
         """
