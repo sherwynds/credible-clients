@@ -1,6 +1,7 @@
 import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
 
+
 class CreditModel:
     def __init__(self, n=6):
         """
