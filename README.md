@@ -38,8 +38,7 @@ _Good luck, and have fun with this_! :rocket:
 
 ## Write-up
 
-Give a brief summary of the approach you took, and why! Include your model's
-accuracy/precision/recall scores as well!
+I chose to do a KNN approach since I am just starting out with machine learning but am passionate to learn more. My value for K was 9, since that seemed to produce the best accuracy, precision and recall values. I could increase the accuracy at higher values of K, or using SVM Classification methodology, but I found this reduced the recall to an insignificant amount, hence I opted for the first approach in my final submission. I tried to play around with it using tensorflow, but have not had time to come to a complete solution. 
 
 
 ## Data Format
