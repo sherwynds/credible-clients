@@ -1,10 +1,8 @@
-import numpy as np
 from sklearn.neighbors import KNeighborsClassifier
-from sklearn.neighbors import RadiusNeighborsClassifier
 
 
 class CreditModel:
-    def __init__(self, n=6):
+    def __init__(self, n=9):
         """
         Instantiates the model object, creating class variables if needed.
         """
